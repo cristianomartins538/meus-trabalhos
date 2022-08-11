@@ -1,0 +1,98 @@
+/*!
+Theme Name: Portfólio
+Theme URI: http://underscores.me/
+Author: Maria Porcina
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: portfolio
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Portfólio is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+
+--------------------------------------------
+ESTRUTURAÇÃO BASE (HC Desenvolvimentos v1)
+--------------------------------------------
+**** GERAL
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @media
+
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+
+/* GERAL */
+
+/* GERAL */
+
+
+/* BODY */
+body{
+	background-image: url(../img/background-image.jpg);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/* BODY */
+
+
+/* HEADER */
+header{
+	
+}
+/* HEADER */
+
+
+/* FOOTER */
+footer{}
+/* FOOTER */
+
+
+/* PÁGINA INICIAL */
+main{
+	
+}
+/* PÁGINA INICIAL */
+legend {
+    color: white;
+}
+
+.box-formulario {
+    background-color: rgba(0, 0, 0, 6);
+    width: 450px;
+    padding: 60px 68px 40px;
+    opacity: 50%;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.email .senha {
+    width: 95%;
+    margin: 15px;
+    padding: 15px;
+
+}
+/* EXTRAS */
+
+/* EXTRAS */

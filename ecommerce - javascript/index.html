@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>HOME</title>
+</head>
+<header class="topo">
+    <div class="content">
+        <figure>
+            <img src="imagens/casasbelem.jpg"/>
+            <figcaption>Logo Exemplo</figcaption>
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#">Todos</a></li>
+                <li><a href="#">Acessórios</a></li>
+                <li><a href="#">Calçados</a></li>
+                <li><a href="#">Camisetas</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section class="produtos">
+        <ul id="lista_produtos">
+            <li class="produto">
+                <div class="fundo_foto">
+                    <figure class="foto_produto">
+                        <img src="imagens/Men-Jacket-Front-Black__15466 1.png">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                </div>
+                <div class="sobre_produto">
+                    <div class="tipo_produto"> Camisetas </div>
+                    <h2 class="nome_produto">Lightweight jacket</h2>
+                    <p class="descricao">
+                        Adicione um pouco de energia ao seu
+                        guarda-roupa de inverno com esta
+                        jaqueta vibrante...
+                    </p>
+                    <strong class="preco">R$ 100,00</strong>
+                </div>
+                <button class="adicionar_carrinho">Adicionar ao adicionar</button>
+            </li>
+
+            <li class="produto">
+                <div class="fundo_foto">
+                    <figure class="foto_produto">
+                        <img src="imagens/image 1.png">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                </div>
+                <div class="sobre_produto">
+                    <div class="tipo_produto"> Acessórios </div>
+                    <h2 class="nome_produto">Black Hat</h2>
+                    <p class="descricao">
+                        O gorro Next.js chegou! Esta beldade
+                        bordada tem um ajuste confortável
+                        que garante que...
+                    </p>
+                    <strong class="preco">R$ 100,00</strong>
+                </div>
+                <button class="adicionar_carrinho">Adicionar ao adicionar</button>
+            </li>
+
+            <li class="produto">
+                <div class="fundo_foto">
+                    <figure class="foto_produto">
+                        <img src="imagens/Surgical-Mask-Black__89554 1.png">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                </div>
+                <div class="sobre_produto">
+                    <div class="tipo_produto"> Acessórios </div>
+                    <h2 class="nome_produto">Mask</h2>
+                    <p class="descricao">
+                        Esta máscara facial durável é
+                        feita de duas camadas de tecido
+                        tratado e possui presilhas...
+                    </p>
+                    <strong class="preco">R$ 40,00</strong>
+                </div>
+                <button class="adicionar_carrinho">Adicionar ao adicionar</button>
+            </li>
+
+
+            <li class="produto">
+                <div class="fundo_foto">
+                    <figure class="foto_produto">
+                        <img src="imagens/Men-TShirt-Black-Front__70046 1.png">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                </div>
+                <div class="sobre_produto">
+                    <div class="tipo_produto"> Camisetas </div>
+                    <h2 class="nome_produto">T-Shirt</h2>
+                    <p class="descricao">
+                        Esta t-shirt é imprescindível no seu
+                        guarda-roupa, combinando o caimento
+                        intemporal de...
+                    </p>
+                    <strong class="preco">R$ 100,00</strong>
+                </div>
+                <button class="adicionar_carrinho">Adicionar ao adicionar</button>
+            </li>
+
+            <li class="produto">
+                <div class="fundo_foto">
+                    <figure class="foto_produto">
+                        <img src="imagens/mockup-a0dc2330__62146 1.png">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                </div>
+                <div class="sobre_produto">
+                    <div class="tipo_produto"> Camisetas </div>
+                    <h2 class="nome_produto">Short-Sleeve T-Shirt</h2>
+                    <p class="descricao">
+                        Muito bem, agora você encontrou a camiseta básica
+                        do seu guarda-roupa. É feito
+                        e um mais grosso...
+                    </p>
+                    <strong class="preco">R$ 100,00</strong>
+                </div>
+                <button class="adicionar_carrinho">Adicionar ao adicionar</button>
+            </li>
+
+            <li class="produto">
+                <div class="fundo_foto">
+                    <figure class="foto_produto">
+                        <img src="imagens/mockup-9b9894f1__67347 1.png">
+                        <figcaption>Produto</figcaption>
+                    </figure>
+                </div>
+                <div class="sobre_produto">
+                    <div class="tipo_produto"> Camisetas </div>
+                    <h2 class="nome_produto">Champion Packable Jacket</h2>
+                    <p class="descricao">
+                        Proteja-se dos elementos com esta jaqueta
+                        embalável Champion. Esta jaqueta
+                        de poliést...
+                    </p>
+                    <strong class="preco">R$ 40,00</strong>
+                </div>
+                <button class="adicionar_carrinho">Adicionar ao adicionar</button>
+            </li>
+
+        </ul>
+    </section>
+    <aside class="funcional">
+        <div>
+            <form>
+                <input type="text" id="pesquisar" placeholder="    Digite aqui sua pesquisa">
+                <button id="botao_pesquisar">Pesquisar</button>
+            </form>
+
+        </div>
+        <div class="carrinho_compras">
+            Carrinho de compras
+        </div>
+        <div class="minha_compra">
+            <h3>Meu carrinho</h3>
+            <ul class="meu_carrinho">
+                
+                <!--
+                    <li>
+                    <figure></figure>
+                    <h2>definição</h2>
+                    <strong>preço</strong>
+                </li>
+            -->
+                
+            </ul>
+
+        </div>
+    </aside>
+</main>
+<script src="dom.js"></script>
+<body>
+    
+</body>
+</html>

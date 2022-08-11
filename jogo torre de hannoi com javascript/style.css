@@ -1,0 +1,41 @@
+.hanoi{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 450px;
+    width: 600px;
+    background: #999;
+    position: relative;
+    align-items: flex-end;
+}
+
+.torre{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 20px;
+    height: 300px;
+    bottom: 0;
+    left: 80px;
+    background: #600;
+    z-index: 2;
+    margin: 0 80px 0 80px;
+}
+
+
+
+.disco{
+
+    background:red;
+    height: 35px;
+    border-radius: 15px;   
+}
+
+.tamanho5{width: 180px; background: #12f; }
+.tamanho4{width: 150px; background: #3f1; }
+.tamanho3{width: 120px; background: #555; }
+.tamanho2{width:  90px; background: #213; }
+.tamanho1{width:  60px; background: #f00; }
+
+.torre1 { left:     0;}
+.torre2 { left: 200px;}
+.torre3 { left: 400px;}
